@@ -69,6 +69,11 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
  }
 
+ .table {
+    margin: 0; /* Mengatur posisi tabel */
+    padding: 0;
+ }
+
  .certificates {
     opacity: 0; /* Awalnya transparan */
     transform: translateY(20px);
