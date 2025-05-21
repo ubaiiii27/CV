@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial */
+    background: linear-gradient(to right, #fadf8f, #fef4ca); /* Gradasi warna cream */
+}
+
+#section1 {
+    opacity: 0; /* Body awalnya transparan */
+    transition: opacity 1s ease-in-out;
+}
+
+#section2 {
+    opacity: 0; /* Body awalnya transparan */
+    transition: opacity 1s ease-in-out;
+}
+
+.container {
+    background-color: white; /* Warna latar belakang */
+    padding: 20px;
+    border-radius: 10px; /* Membuat sudut lebih halus */
+    text-align: center; /* Mengatur teks ke tengah */
+}
+
+.rounded-circle {
+    border: 3px solid #fadf8fc7; /* Garis tepi bulat */
+}
+
+.navbar {
+    background-color: #fef4ca; /* Warna latar belakang navbar */
+    border-bottom: 2px solid #fadf8f; /* Garis bawah navbar */
+    padding: 10px 0; /* Padding atas dan bawah */
+    margin-bottom: 20px; /* Jarak bawah navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.navbar a {
+    color: #333; /* Warna teks navbar */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 10px 15px; /* Padding dalam navbar */
+    font-weight: bold; /* Teks tebal */
+}
+
+.skills-container {
+    margin: 20px 0; /* Jarak atas dan bawah */
+    display: flex;
+    justify-content: center; /* Mengatur posisi elemen */
+    gap: 50px; /* Jarak antar elemen */
+}
+
+.soft {
+    flex-direction: row; /* Mengatur arah elemen */
+    background-color: #fef4ca; /* Warna latar belakang */
+    border-radius: 10px; /* Sudut lebih halus */
+    padding: 10px; /* Padding dalam elemen */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.technical {
+    flex-direction: row-reverse; /* Mengatur arah elemen */
+    background-color: #fef4ca; /* Warna latar belakang */
+    border-radius: 10px; /* Sudut lebih halus */
+    padding: 10px; /* Padding dalam elemen */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+ .bf {
+    background-color: #fef4ca; /* Warna latar belakang */
+    border-radius: 10px; /* Sudut lebih halus */
+    padding: 10px 0; /* Padding atas dan bawah */
+    margin-bottom: 8px; /* Jarak bawah navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+ }
+
+ .certificates {
+    opacity: 0; /* Awalnya transparan */
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.show {
+    opacity: 1; /* Menampilkan elemen */
+    transform: translateY(0);
+}
+
+ .certificates img {
+    width: 100px; 
+    transition: transform 0.3s ease-in-out; /* Transisi saat hover */
+}
+
+.modal {
+    display: none; /* Modal tersembunyi secara default */
+    position: fixed; /* Mengatur posisi modal */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Latar belakang gelap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img { /* mengatur gambar yang muncul dalam modal */
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.icon {
+    justify-content: center; /* Mengatur posisi elemen */
+    display: flex; /* Menggunakan flexbox */
+    gap: 50px; /* Jarak antar elemen */
+    padding: 10px; /* Padding dalam elemen */
+    border-radius: 10px; /* Sudut lebih halus */    
+}
+
+.icon a {
+    color: #333; /* Warna teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 10px 15px; /* Padding dalam elemen */
+    font-weight: bold; /* Teks tebal */
+}
+
+ footer {
+    background-color: #fef4ca; /* Warna latar belakang footer */
+    padding: 2px; /* Padding dalam footer */
+    text-align: center; /* Mengatur teks ke tengah */
+    border-top: 1px solid #fadf8f; /* Garis atas footer */
+    margin-top: 50px; /* Jarak atas footer */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+
+ }
+
+
+
+
+
