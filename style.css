@@ -43,7 +43,7 @@ body {
     margin: 20px 0; /* Jarak atas dan bawah */
     display: flex;
     justify-content: center; /* Mengatur posisi elemen */
-    gap: 20px; /* Jarak antar elemen */
+    gap: 50px; /* Jarak antar elemen */
 }
 
 .soft {
