@@ -2,12 +2,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.getElementById("section1").style.opacity = "1";
-    }, 600);
+    },800);
 });
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.getElementById("section2").style.opacity = "1";
-    }, 1020);
+    }, 1060);
 });
 
 //ini adalah fungsi show image di tengah layar
@@ -29,6 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
     if (certificates) {
         setTimeout(function() {
             certificates.classList.add("show");
-        }, 1000);
+        }, 2000);
     }
 });
